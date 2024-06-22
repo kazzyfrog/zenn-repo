@@ -13,13 +13,13 @@ published: true
 
 先日、コミュニティ内で共同開発を行い、GitHub 初心者向けのチュートリアルを作成しました。
 
-初心者のうちは Git や GitHub の基本的な使い方を学習したら、その後は、成果物を掲載する程度の使用にとどまりがちです。
-
-そうなると、せっかく学習した内容を忘れてしまったりするので、
-普段からモチベーション高く GitHub を活用できたら良さそうです。
+初心者のうちは Git や GitHub を学習したら、
+その後は、成果物を掲載する程度の使用にとどまりがちです。
 
 なので、この記事では、
 **GitHub 初心者が中級者になるための、それっぽい使い方を、テンポよく紹介していきます。**
+
+普段からモチベーション高く GitHub を活用できたら良さそうですね！
 
 対象:
 
@@ -49,8 +49,7 @@ https://qiita.com/uhooi/items/c26c7c1beb5b36e7418e
 - 行動規範（`CODE_OF_CONDUCT.md`）の設置
 - 貢献ガイドライン(`CONTRIBUTING.md`)の設置
 
-上記以外にも、様々な設定が可能です。
-詳しくは、以下の記事を参照してください。
+上記以外にも、様々な設定が可能です。詳しくは、下記を参照してください。
 https://zenn.dev/morinokami/articles/dot-github-directory
 
 ### `.github`リポジトリとは？
@@ -115,13 +114,10 @@ https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issue
 ?&template=pull_request_template_01.md
 ```
 
-Issue テンプレートと違って、毎回上記の URL を追記する必要があるので、Pull Request のテンプレートでは、１種類のみ用意する方が楽かと思います。
+**Issue テンプレートと違って、毎回上記の URL を追記する必要があるので、Pull Request のテンプレートでは、１種類のみ用意する方が楽かと思います。**
 
 また、Pull Request テンプレートの内容に関しては、以下の記事が参考になります。
 https://qiita.com/suzuki-hoge/items/3a568dff36fd981082ba#git-template-for-pull-request-pullrequest作成時の説明欄にテンプレートを設定する
-
-Issue や Pull Request を普段から活用できると、だいぶそれっぽいですね。
-筆者の主観ですが、`.github`リポジトリがあると、「GitHub 中級者っぽいなー」と感じます。
 
 ## 2.GitHub Flow で手順書を作成する
 
@@ -206,9 +202,6 @@ https://techblog.insightedge.jp/entry/branch-strategy-github-flow
 良かったら活用してみてください。
 https://github.com/first-contributions-ja/first-contributions-ja.github.io
 
-筆者の主観ですが、個人でもブランチ戦略を実践しているのを見ると、
-「GitHub 中級者っぽいなー」と感じます。
-
 ## 3.TIL リポジトリを作成する
 
 TIL とは、Today I Learned の略であり、訳したら「今日学んだこと」です。
@@ -230,9 +223,6 @@ TIL には、一般的に以下のようなメリットがあります；
 より具体的な TIL の体験談に関しては、以下の記事が参考になります。
 https://blogs.lisb.direct/entry/2016-03-28-100000
 
-あくまで筆者の主観ですが、`TIL`リポジトリがあると、
-「GitHub 中級者っぽいなー」と感じます。
-
 ## 4.プロフィール README を作成する
 
 GitHub 上で、自分のアカウント名と同じリポジトリを作成すると、README.md ファイルの内容が、プロフィール画面に表示されます。
@@ -245,8 +235,6 @@ https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-gith
 
 詳しくは、以下の記事で紹介されています：
 https://qiita.com/Keichan_15/items/7d0595369d6b6e321ede
-
-筆者の主観ですが、プロフィールが充実していると、「GitHub 中級者っぽいなー」と感じます。
 
 ## 5.オープンソースプロジェクトに参加する
 
@@ -264,8 +252,6 @@ https://opensource.guide/ja/starting-a-project/#オープンソースとはな�
 初心者でも簡単に参加できるオープンソースプロジェクトを以前リサーチしたので、
 興味があれば、ぜひ参加してみてください！
 https://zenn.dev/kazzyfrog/articles/3cef24a46374af
-
-あくまで筆者の主観ですが、OSS に貢献していると、「GitHub 中級者っぽいなー」と感じます。
 
 ## おわりに
 
