@@ -159,3 +159,10 @@ published: true
 もし、他にも「燃え尽きるパターン」や「燃え尽きないための対処」がありましたら、ぜひ教えてください！
 
 Happy Hacking :)
+
+## 参考
+
+本記事の参考にさせていただきました！
+https://zenn.dev/hagakun_dev/articles/2b40cacdf557dd
+https://zenn.dev/tak001/articles/5e7aad83fe7d7d
+https://zenn.dev/mochimochimo/articles/b09a62c175eb73
