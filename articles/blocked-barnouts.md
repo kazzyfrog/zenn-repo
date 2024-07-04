@@ -13,7 +13,7 @@ published: true
 
 ## はじめに
 
-半年に１回くらいのペースで、燃え尽きてます。
+半年に１回くらいのペースで、[燃え尽き](https://ja.wikipedia.org/wiki/バーンアウト)てます。
 その度にしっかり時間をとって、振り返りをしています。
 
 そして、少し前に、ようやく自分が燃え尽きるパターンが分かってきました。
@@ -166,3 +166,5 @@ Happy Hacking :)
 https://zenn.dev/hagakun_dev/articles/2b40cacdf557dd
 https://zenn.dev/tak001/articles/5e7aad83fe7d7d
 https://zenn.dev/mochimochimo/articles/b09a62c175eb73
+https://www.lifehacker.jp/article/150912_programmers_block/
+https://codegym.cc/ja/groups/posts/ja.830.naze-kai-fa-zheha-rane-jinki-zheng-hou-qunni-xianrunodeshouka-tekunoroji-ye-jiede-rane-jinki
