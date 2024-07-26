@@ -18,11 +18,11 @@ published: true
 個人的に、サイトの SEO 周りの設定は、
 毎回調べながら、そこまで深掘りせずに設定を完了しがちです。。
 
-今回は、**Next.js の App Router で、サイトマップを設定する手順と、そこで調べたこと**をまとめました。
+なので今回は、**Next.js の App Router で、サイトマップを設定する手順と、そこで調べたこと**をまとめました。
 
-時間の節約になれば、嬉しいです。
+時間の節約になれば、嬉しいです :)
 
-検証環境：
+**検証環境**：
 ・Next.js v14.2.5/ App Router
 
 ## サイトマップとは？
@@ -135,7 +135,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
 このように、`sitemap.xml`を返す関数を作成することで、設定することが可能です。
 
-### サイトマップに設定する属性について
+### メモ:サイトマップに設定する属性について
 
 https://www.sitemaps.org/ja/protocol.html
 上記の、サイトマップのドキュメントによると、
@@ -163,7 +163,8 @@ https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitem
 
 ## Next.js で動的なページのサイトマップを生成する
 
-この場合も、同様に app ディレクトリ内に、`sitemap.(js|ts)` ファイルを作成します。
+動的なページの場合も、
+同じように app ディレクトリ内に、`sitemap.(js|ts)` ファイルを作成します。
 
 以下に、例を示します！
 
@@ -188,11 +189,13 @@ export default function sitemap(): Promise<MetadataRoute.Sitemap>  {
         lastModified: new Date(post.date_modified),
   }));
 
-  return [...defaultPages, ...columnPages];
+  return [...defaultPages, ...blogPages];
 }
 ```
 
-上記のように設定することで、
+上記では、動的ではない`defaultPages`と、動的に生成（`[slug]`）される`blogPages`に分けています！
+
+このように設定することで、
 動的なページも、一括で生成することができますね！
 
 ### メモ：Next.js /sitemap は、v13.3.0 で追加された
