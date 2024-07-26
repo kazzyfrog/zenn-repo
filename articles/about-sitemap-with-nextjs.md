@@ -1,5 +1,5 @@
 ---
-title: "Next.js 14.2 でサイトマップを設定するガイド"
+title: "Next.js 14.2 でサイトマップを生成するガイド"
 emoji: "🗺️"
 type: "tech"
 topics:
