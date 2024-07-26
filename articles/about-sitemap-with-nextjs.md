@@ -170,14 +170,15 @@ https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitem
 
 ```ts:app/sitemap.ts
 import { MetadataRoute } from 'next'
+// ex) import { getAllPosts } from '@/lib/api'
 
 export default function sitemap(): Promise<MetadataRoute.Sitemap>  {
     const defaultPages: MetadataRoute.Sitemap = [
         {
-        url: 'https://acme.com',
+          url: 'https://acme.com',
         },
         {
-        url: 'https://acme.com/blog',
+          url: 'https://acme.com/blog',
         },
         // other pages
   　　];
@@ -193,10 +194,13 @@ export default function sitemap(): Promise<MetadataRoute.Sitemap>  {
 }
 ```
 
-上記では、動的ではない`defaultPages`と、動的に生成（`[slug]`）される`blogPages`に分けています！
+上記では、動的ではない`defaultPages`と、
+動的に生成（`[slug]`）される`blogPages`に分けています！
+
+`getAllPosts()`関数で取得したデータを、展開しているだけですね！
 
 このように設定することで、
-動的なページも、一括で生成することができますね！
+動的なページも、一括で生成することができます！
 
 ### メモ：Next.js /sitemap は、v13.3.0 で追加された
 
