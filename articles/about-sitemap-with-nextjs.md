@@ -144,7 +144,7 @@ https://www.sitemaps.org/ja/protocol.html
 - `<urlset>`（必須）: 現在のプロトコル
 - `<url>`（必須）:各 URL を囲うタグ
 - `<loc>`（必須）: ページの URL
-- `<lastmod>`（必須）: 最終更新日
+- `<lastmod>`（任意）: 最終更新日
 - `<changefreq>`（任意）: 更新頻度
 - `<priority>`（任意）: ページの優先度
 
@@ -187,7 +187,7 @@ export default function sitemap(): Promise<MetadataRoute.Sitemap>  {
 
     const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
         url: `https://acme.com/blog/${post.slug}`,
-        lastModified: new Date(post.date_modified),
+        lastModified: new Date(post.dateModified),
   }));
 
   return [...defaultPages, ...blogPages];
