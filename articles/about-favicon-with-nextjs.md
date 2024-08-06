@@ -62,6 +62,15 @@ Next.js の App Router で、ファビコンを設定していきます！
 
 （**背景を透過させたくない場合は、このステップを飛ばしてください。**）
 
+:::message
+（2024/8/7 追記）
+Apple デバイス用の`apple-icon.png` については、
+透過画像にせず、四角い背景付きにした方が、見た目崩れを防ぐことができます！
+詳しくは、[こちら](https://zenn.dev/pacchiy/articles/e4dcd7bd29d387)のサイトを参照してください:)
+
+コメント欄にて、教えて頂きました 🙏
+:::
+
 https://www.remove.bg/ja
 
 画像作成時に使用したツールによっては、
@@ -124,7 +133,7 @@ https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest
 ```md
 src/
 ├─app/
-| ├─app-icons.png
+| ├─app-icon.png
 | ├─favicon.ico
 | ├─icon-192x192.png
 | ├─icon-512x512.png
@@ -139,7 +148,7 @@ src/
 Next.js の App Router の、ファイルベースの設定では、
 以下のようなファイル名を検出し、サイトの`<head`>要素に適切なタグを自動的に追加されます！
 
-- app-icons.png
+- app-icon.png
 - favicon.ico
 - icon.svg
 - manifest.json
