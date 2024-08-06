@@ -133,7 +133,7 @@ https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest
 ```md
 src/
 ├─app/
-| ├─app-icon.png
+| ├─apple-icon.png
 | ├─favicon.ico
 | ├─icon-192x192.png
 | ├─icon-512x512.png
@@ -148,7 +148,7 @@ src/
 Next.js の App Router の、ファイルベースの設定では、
 以下のようなファイル名を検出し、サイトの`<head`>要素に適切なタグを自動的に追加されます！
 
-- app-icon.png
+- apple-icon.png
 - favicon.ico
 - icon.svg
 - manifest.json
