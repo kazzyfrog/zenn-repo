@@ -200,9 +200,10 @@ new ImageResponse(
 こう見ると、シンプルですね 😎
 上記で、`{title}`など、動的な値を使用することも、もちろん可能です。
 
+また、デザインに画像を使用することも可能です！
+
 https://zenn.dev/hiromu617/articles/c03fef6f4d6c6e
 
-また、デザインに画像を使用することも可能です！
 上記の記事では、svg 背景を使用して、「いい感じ」に作成する手順が解説されています。
 
 ## おまけ：ImageResponse の様々なオプション
@@ -210,7 +211,7 @@ https://zenn.dev/hiromu617/articles/c03fef6f4d6c6e
 https://nextjs.org/docs/app/api-reference/functions/image-response
 
 上記の公式ページによると、
-ImageResponse は、デフォルトで様々なオプションが用意されています。
+ImageResponse には、デフォルトで様々なオプションが用意されています。
 
 ```tsx
 import { ImageResponse } from 'next/og'
@@ -240,7 +241,7 @@ new ImageResponse(
 - 絵文字やテキストのフォントを変更したり
 - TailwindCSS でスタイルを記述したり
 
-柔軟なカスタマイズが可能です！
+柔軟なカスタマイズが可能ですね！
 
 （**OG 画像を作成する場合の推奨サイズは、1200x630 ピクセル**です。）
 
