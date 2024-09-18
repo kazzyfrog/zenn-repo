@@ -125,15 +125,19 @@ https://jsprimer.net/use-case/nodecli/read-file/
 
 **最後まで読んでいただだき、ありがとうございます** 🥳
 
-開発中に、調べたことの記録のような記事ですが、
+下記の開発中に、調べたことの記録のような記事ですが、
 少しでも参考になれば、嬉しいです！
 
-そして、もし間違いや補足情報などがありましたら、
-ぜひコメントを追加してください！
+https://lgtm-factory.pages.dev/
+
+そして、**オリジナルのフリー LGTM 画像を生成できる、オープンソースのサイト**を、リリースしました 🎉📦
+よかったら、チェックしてみてください！
 
 Happy Hacking :)
 
 ## 参考
+
+もし間違いや補足情報などがありましたら、ぜひコメントを追加してください！
 
 https://gotohayato.com/content/553/
 https://techblg.app/articles/how-to-handle-module-not-found-cant-resolve-fs-nextjs/
