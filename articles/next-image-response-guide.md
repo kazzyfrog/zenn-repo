@@ -220,7 +220,7 @@ HTML & CSS をベースに、柔軟に画像を生成できます！
 
 [![LGTM Factory](https://lgtm-factory.pages.dev/api/v1/lgtm-images?theme=simple-emoji-browser&text=LGTM+Factory&emoji=%F0%9F%99%88%F0%9F%99%89%F0%9F%99%8A&color=%23fcd34d)](https://lgtm-factory.pages.dev)
 
-サイズを変えてステッカーっぽくしたり、、
+figma でデザインした`svg`画像をベースに、ステッカーっぽくしたり、、
 [GitHub/ ソースコード](https://github.com/lgtm-factory/lgtm-factory/blob/main/lgtm-data/iced-coffee.tsx)
 
 [![LGTM Factory](https://lgtm-factory.pages.dev/api/v1/lgtm-images?theme=iced-coffee&text=%E3%81%88%E3%82%89%E3%81%84%EF%BC%81+%3A%29&emoji=%F0%9F%93%A6&color=%23fcd34d)](https://lgtm-factory.pages.dev)
