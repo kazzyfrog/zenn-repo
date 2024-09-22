@@ -117,7 +117,7 @@ HTML & CSS、そしてフリー素材から画像を生成する、オープン�
 下記の開発中に、調べたことの記録のような記事ですが、
 少しでも参考になれば、嬉しいです！
 
-https://github.com/lgtm-factory/lgtm-factory
+https://github.com/lgtm-factory/lgtm-factory#
 
 そして、本記事で紹介した、
 素晴らしい LGTM 画像共有サービスから影響を受けています 🙏
