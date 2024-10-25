@@ -238,6 +238,7 @@ Happy Hacking :)
 
 ## 参考
 
+https://github.com/pmndrs/zustand
 https://zustand-demo.pmnd.rs
 https://zenn.dev/uhyo/articles/provider-tower-to-recoil
 https://www.frontendundefined.com/posts/monthly/react-context-global-state/
