@@ -1,5 +1,5 @@
 ---
-title: "Next,js 15 で rel=canonical を使用して URL を正規化するガイド"
+title: "Next.js 15 で rel=canonical を使用して URL を正規化するガイド"
 emoji: "🖥"
 type: "tech"
 topics:
