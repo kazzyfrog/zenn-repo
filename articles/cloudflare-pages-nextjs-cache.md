@@ -172,6 +172,8 @@ https://lgtm-factory.pages.dev/
 そして、**オリジナルのフリー LGTM 画像を生成できる、オープンソースのサイト**を、
 リリースしました 🎉📦
 
-よかったら、チェックしてみてください！
+新年のコードレビューに、ご活用ください！
+
+[![LGTM Factory](https://lgtm-factory.pages.dev/api/v1/lgtm-images?theme=simple-emoji-browser&text=LGTM+Factory&emoji=%F0%9F%8E%8D%F0%9F%90%8D%F0%9F%A7%A7&color=%23fcd34d)](https://lgtm-factory.pages.dev)
 
 Happy Hacking :)
