@@ -1,5 +1,5 @@
 ---
-title: "Next.js の API レスポンスの結果をキャッシュする【Cloudflare Pages】"
+title: "Next.js の API レスポンスをキャッシュする【Cloudflare Pages】"
 emoji: "📦"
 type: "tech"
 topics:
