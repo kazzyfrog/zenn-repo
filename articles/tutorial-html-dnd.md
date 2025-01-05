@@ -32,6 +32,12 @@ HTML Drag and Drop API は、ブラウザネイティブのドラッグ&ドロ�
 当記事執筆時点（2024/01/03）で、
 主要なブラウザで広くサポートされており、追加のライブラリなしで実装可能です。
 
+（01/05 更新）
+プレビュー用の画像と、URL を追記しました！
+![デモ画像](https://github.com/user-attachments/assets/93e1c5ff-245a-414e-90f0-b469c7a00161)
+
+👀 [デモサイト](https://b13o.github.io/book-management-board/)
+
 ## HTML Drag and Drop API の使い方
 
 そもそも、ドラッグ&ドロップとは、、？
