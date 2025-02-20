@@ -222,6 +222,3 @@ Happy Hacking :)
 https://resources.github.com/ja/software-development/what-is-software-testing/
 https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications
 https://qiita.com/mrnaoki/items/3fd211deb8711fae8204
-
-React/ Next.js の勉強会:
-https://beginner-react.connpass.com
