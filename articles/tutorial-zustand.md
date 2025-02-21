@@ -1,6 +1,6 @@
 ---
 title: "状態管理ライブラリ Zustand の紹介と導入【React】"
-emoji: "🐻"
+emoji: "⚛️"
 type: "tech"
 topics:
   - "zustand"
