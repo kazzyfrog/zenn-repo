@@ -13,9 +13,9 @@ published: true
 
 ## はじめに
 
-Next.js で、フルスタックアプリを構築しています。
+現在、Next.js で、フルスタックアプリを構築しています。
 
-先日、**fs モジュールがうまく読み込めないエラーが発生しました**。
+開発中に、**fs モジュールがうまく読み込めないエラーが発生しました**。
 
 そこで今回は、
 エラーの解消と、その際に調べたことをまとめました。
@@ -128,16 +128,14 @@ https://jsprimer.net/use-case/nodecli/read-file/
 下記の開発中に、調べたことの記録のような記事ですが、
 少しでも参考になれば、嬉しいです！
 
-https://lgtm-factory.pages.dev/
+https://b13o.com
 
-そして、**オリジナルのフリー LGTM 画像を生成できる、オープンソースのサイト**を、リリースしました 🎉📦
-よかったら、チェックしてみてください！
+そして、もし、間違いや補足情報などがありましたら、
+ぜひコメントを追加してください！
 
 Happy Hacking :)
 
 ## 参考
-
-もし間違いや補足情報などがありましたら、ぜひコメントを追加してください！
 
 https://gotohayato.com/content/553/
 https://techblg.app/articles/how-to-handle-module-not-found-cant-resolve-fs-nextjs/
