@@ -9,6 +9,7 @@ topics:
   - "vitest"
   - "初心者向け"
 published: true
+publication_name: "b13o"
 ---
 
 ## はじめに
